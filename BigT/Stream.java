@@ -1,19 +1,4 @@
 
-import btree.BTFileScan;
-import btree.KeyDataEntry;
-import btree.LeafData;
-import btree.StringKey;
-import cmdline.MiniTable;
-import diskmgr.OutOfSpaceException;
-import global.MID;
-import global.RID;
-import global.TupleOrder;
-import heap.Heapfile;
-import heap.MapScan;
-import iterator.FileScan;
-import iterator.FldSpec;
-import iterator.MapSort;
-import iterator.RelSpec;
 import java.io.IOException;
 
 public class Stream {
