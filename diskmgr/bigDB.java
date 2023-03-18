@@ -50,7 +50,12 @@ public class bigDB implements GlobalConst {
   
   /** default constructor.
    */
-  public bigDB(int type) { }
+  public bigDB(int type) {
+    //Calling the methods that create the diffrent clustering and index types in bigT class
+      bigT obj = new bigT();
+      obj.setIndexFiles();
+      obj.createIndex();  
+  }
   
   
   /** DB Constructors.
